@@ -1,0 +1,261 @@
+
+/* General Styling */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: 'Expletus Sans', cursive; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/* Navigation Bar Section */
+
+#nav-bar {
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to left, #88afeb, #f28585);
+    padding:2 !important;
+}
+.navbar-brand span{
+    height: 40px;
+    width: 60px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+.navbar-nav li{
+    padding:0 10px
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar button{
+    box-shadow: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    background: none;
+    font-weight: 500;
+    border-color: white;
+    color: white;
+    box-shadow: none !important;
+}
+.navbar button:hover{
+    background-color: #f28585;
+    color: white;
+    border-color: white;
+    border-spacing: 2px;
+}
+.navbar .form-control{
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+/* Card Section */
+
+#card{
+    text-align: center;
+    margin: 50px;
+}
+.card-body{
+    border-color: aquamarine;
+}
+#card .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    size: 30px;
+}
+#card .playstation{
+    background-color: blue;
+}
+#card .xbox{
+    background-color: green;
+}
+#card .nintendo{
+    background-color: red;
+}
+#card .pc{
+    background-color: #e817d3;
+}
+.card img{
+    width: 286px;
+    height: 200px;
+}
+#platform p{
+    text-align: center;
+    text-decoration-style: dotted;
+}
+
+/* Banner Section */
+
+#banner{
+    background-image: linear-gradient(to left, #88afeb, #f28585);
+    color: white;
+    padding: 5%;
+}
+#banner img{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+/* Carousel Section */
+
+.carousel-item h5 p{
+    text-decoration-style: dashed;
+}
+.carousel .carousel-item {
+    height: 500px;
+}  
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+    height: 500px;
+}
+
+/* Game Section */
+
+#games{
+    text-align: center;
+    margin-top: 80px ;
+}
+.title:before{
+    content:'';
+    background: linear-gradient(to left, #f28585, #88afeb);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#game-description{
+    text-align: left;
+
+}
+.game-img{
+    width: 350px;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 50%;
+}
+.game-description{
+    padding: 20px;
+}
+.game-description h4{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* About Me Section */
+
+#about-me{
+    text-align: center;
+    background: #f8f9fa;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#about-me ul li{
+    text-align: left;
+    margin-left:40px;
+    margin: 15px 0;
+}
+#about-me ul{
+    margin-left: 30px;
+}
+#about-me .about-me-title{
+    font-size: 30px;
+    margin: 30px 0;
+}
+#about-me img{
+    width: 400px;
+}
+
+/* Contact Us Section */
+
+#contact-us{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f2f4f8;
+}
+.sm-icons img{
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.sm-icons .instagram{
+    width: 88px;
+    height: 88px;
+}
+.sm-icons a:hover img{
+    transform: translateY(-10px);
+}
+#contact-us .c-icons{
+    text-align: left;
+    padding-left: 440px;
+    padding-bottom: 40px;
+}
+#contact-us .fa{
+    margin-right: 8px;
+    font-size: 20px;
+}
+#contact-us .Info{
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+
+/* Footer Section */
+
+#footer{
+    color: white;
+    background-image: linear-gradient(to right, #88afeb, #f28585);
+}
+#footer span{
+    height: 40px;
+    width: 60px;
+    color: white;
+    padding-left: 305px;
+    font-weight: 600;
+    font-size: 120px;
+    font-family: 'Righteous', cursive;
+}
+#footer .copyright{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(39, 37, 37);
+}
+#footer .fa{
+    margin-right: 5px;
+    font-size: 15px;
+}
